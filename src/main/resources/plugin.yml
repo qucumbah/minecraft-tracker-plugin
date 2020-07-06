@@ -1,0 +1,12 @@
+name: Tracker
+main: qucumbah.TrackerPlugin
+version: 1.0
+author: qucumbah
+api-version: 1.16
+commands:
+  trackstart:
+    description: Give tracking compass pointing to some player
+    usage: /trackstart <victimPlayer>
+  trackstop:
+    description: Stop tracking player
+    usage: /trackstop
